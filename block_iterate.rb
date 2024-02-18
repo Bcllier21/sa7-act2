@@ -5,8 +5,8 @@ numbers.each do |num|
 end
 
 array = []
-numbers.map { |num| array.append(num * 3) }
-print array
+print numbers.map { |num| num * 3 }
+#print array
 
 
 
